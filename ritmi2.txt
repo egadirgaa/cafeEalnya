@@ -1,0 +1,13 @@
+jika setup aplikasi di halaman login sudah di klik, maka semua data awal telah dimasukkan!
+
+==== akun admin ====
+email : ealnya@gmail.com
+password : 123123
+
+more detail : 
+
+jika gambar terhapus di menu
+masukkan semua backup file gambar di "storage/app/public/menu/"
+
+jika tetap tidak muncul, hapus symlink di public/foldersymlink(ada tanda panah patah) 
+kemudian php artisan storage:link atau 
