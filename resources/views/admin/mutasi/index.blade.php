@@ -90,7 +90,6 @@
         box-shadow: 0 5px 15px rgba(255, 171, 145, 0.3);
     }
 
-    /* --- Search Section --- */
     .card-eal {
         background: white;
         border-radius: 28px;
@@ -115,7 +114,6 @@
     .search-input:focus { border-color: var(--primary); background: white; }
     .search-icon { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--primary); }
 
-    /* --- Table Design --- */
     .table-eal { width: 100%; border-collapse: collapse; }
     .table-eal thead th {
         background: #fffaf8;
@@ -133,7 +131,6 @@
     .customer-name { font-weight: 700; }
     .total-price { font-weight: 800; color: #444; }
 
-    /* --- Badges & Buttons --- */
     .status-badge { padding: 6px 14px; border-radius: 12px; font-size: 11px; font-weight: 800; display: inline-block; }
     .status-done { background: #e8f5e9; color: #2e7d32; }
     .status-pending { background: #fff3e0; color: #ef6c00; }
@@ -150,7 +147,6 @@
     .btn-detail:hover { background: var(--primary); color: white; }
     .empty-state { text-align: center; padding: 50px !important; color: #a1887f; }
 
-    /* --- Pagination --- */
     .eal-pagination-container { padding: 20px 25px; display: flex; justify-content: space-between; align-items: center; background: #fffaf8; }
     .page-info { font-size: 0.85rem; color: #a1887f; font-weight: 600; }
     .page-btn {
@@ -159,7 +155,6 @@
     }
     .page-btn.active { background: var(--secondary); color: white; border-color: var(--secondary); }
 
-    /* --- MOBILE MODE --- */
     @media (max-width: 768px) {
         .header-section { flex-direction: column; align-items: flex-start; gap: 15px; }
         
@@ -188,9 +183,6 @@
             text-transform: uppercase;
             font-size: 0.7rem;
         }
-
-        /* Memberi label manual via pseudo-element jika diperlukan, atau restruktur HTML */
-        /* Alternatif: Kita buat td tetap tapi style-nya tumpuk */
         .table-eal td { display: block; text-align: left; padding: 5px 0; }
         .trx-id { font-size: 1.1rem; }
         .btn-detail { display: block; text-align: center; margin-top: 10px; }

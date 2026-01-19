@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'Cafe Ealnya - Menu Spesial'); ?>
+<?php $__env->startSection('title', 'Cafe Ealnya - Menu'); ?>
 
 <?php $__env->startSection('content'); ?>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

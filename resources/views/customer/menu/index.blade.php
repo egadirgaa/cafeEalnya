@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Cafe Ealnya - Menu Spesial')
+@section('title', 'Cafe Ealnya - Menu')
 
 @section('content')
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -10,10 +10,6 @@ use App\Http\Controllers\halamanDepan\MenuController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
-
-
-
-
 // auth
 Route::middleware('guest')->group(function () {
     Route::get('/login', [authController::class, 'showLogin'])->name('login');
@@ -49,12 +45,11 @@ Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
 Route::get('/', [MenuController::class, 'customerIndex'])->name('customer.pesanan.menu');
 
 Route::prefix('customer')->name('customer.')->group(function () {
+    // backup
     // Route::get('/ealnya', [appController::class, 'index'])->name('app.menu');
     
     // Halaman Utama Keranjang
     Route::get('/pesanan', [PesananController::class, 'index'])->name('pesanan.index');
-    
-    // Aksi Keranjang (Tambah, Hapus, Kosongkan)
     Route::post('/pesanan/tambah/{id}', [PesananController::class, 'tambah'])->name('pesanan.tambah');
     Route::delete('/pesanan/hapus/{id}', [PesananController::class, 'hapus'])->name('pesanan.hapus');
     Route::post('/pesanan/clear', [PesananController::class, 'clear'])->name('pesanan.clear');

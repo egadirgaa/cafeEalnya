@@ -198,7 +198,7 @@
     .toast-container {
         position: fixed;
         top: 20px;
-        right: -400px; /* Sembunyi di luar layar kanan */
+        right: -400px;
         background: white;
         padding: 15px 25px;
         border-radius: 15px;

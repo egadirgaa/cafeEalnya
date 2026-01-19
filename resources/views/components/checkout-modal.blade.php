@@ -94,6 +94,68 @@
         </div>
     </div>
 </div>
+<style>
+    .modal-overlay { 
+        position: fixed;
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        min-height: 80vh; 
+        height: 100%; 
+        background: rgba(0,0,0,0.4); 
+        backdrop-filter: blur(4px); 
+        display: none; 
+        align-items: center; 
+        justify-content: center; 
+        z-index: 1000; 
+        padding: 20px; 
+    }
+    .modal-content { 
+        background: white; 
+        width: 100%; 
+        max-width: 450px; 
+        border-radius: 25px; 
+        padding: 25px; animation: modalPop 0.4s var(--cb-bounce); 
+        position: relative; 
+    }
+    #successState { 
+        display: none; 
+        text-align: center; 
+        padding: 20px 0; 
+    }
+    .check-icon { 
+        ont-size: 80px; 
+        color: #40c057; 
+        animation: scaleIn 0.5s var(--cb-bounce); 
+    }
+
+    .payment-options-grid { 
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px; 
+        margin-top: 15px; 
+    }
+    .payment-radio { 
+        display: none; 
+    }
+    .payment-label { 
+        border: 2px solid #f0f0f0; 
+        border-radius: 15px; 
+        padding: 12px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 5px; 
+        cursor: pointer; 
+        transition: 0.2s; 
+    }
+    .payment-radio:checked + .payment-label { border-color: var(--pink-3); background: #fff9fb; }
+
+    @keyframes scaleIn { from { transform: scale(0); } to { transform: scale(1); } }
+    @keyframes modalPop { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+</style>
 
 <script>
     function openCheckoutModal() { 

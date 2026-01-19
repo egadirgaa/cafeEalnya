@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Keranjang Cantikmu - Cafe Ealnya')
+@section('title', 'Keranjang - Cafe Ealnya')
 
 @section('content')
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -105,7 +105,6 @@
 
     .btn-delete:hover { background: #ff4757; color: white; }
 
-    /* Layouts lainnya sama seperti sebelumnya */
     .checkout-card { background: white; border-radius: 24px; padding: 20px; margin-top: 30px; border: 2px dashed var(--pink-3); }
     .summary-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
     .summary-row .total-price { font-size: 24px; font-weight: 900; color: var(--pink-4); }
@@ -113,21 +112,7 @@
     .btn-custom { padding: 14px; border-radius: 15px; border: none; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.3s var(--cb-bounce); }
     .btn-outline { background: white; color: #666; border: 2px solid #eee; }
     .btn-checkout { background: linear-gradient(135deg, var(--pink-3), var(--pink-4)); color: white; width: 100%; }
-    
-    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; min-height: 80vh; height: 100%; background: rgba(0,0,0,0.4); backdrop-filter: blur(4px); display: none; align-items: center; justify-content: center; z-index: 1000; padding: 20px; }
-    .modal-content { background: white; width: 100%; max-width: 450px; border-radius: 25px; padding: 25px; animation: modalPop 0.4s var(--cb-bounce); position: relative; }
-    #successState { display: none; text-align: center; padding: 20px 0; }
-    .check-icon { font-size: 80px; color: #40c057; animation: scaleIn 0.5s var(--cb-bounce); }
-    
-    .payment-options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; }
-    .payment-radio { display: none; }
-    .payment-label { border: 2px solid #f0f0f0; border-radius: 15px; padding: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; transition: 0.2s; }
-    .payment-radio:checked + .payment-label { border-color: var(--pink-3); background: #fff9fb; }
-
-    @keyframes scaleIn { from { transform: scale(0); } to { transform: scale(1); } }
-    @keyframes modalPop { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
-    @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-</style>
+    </style>
 
 <div class="cart-wrapper">
     <div class="page-title">

@@ -191,11 +191,19 @@
     </button>
 
     <div id="loader">
-        <div class="coffee-cup">☕</div>
+        <div class="coffee-cup">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><mask id="SVGbM9xrexz">
+                <path fill="#fff" d="M5 6c0 -2 2 0 6.5 0c4.5 0 7.5 -2 7.5 0l0 1c0 1.5 -2 2 -6.5 2c-4.5 0 -7.5 0 -7.5 -2l0 -1Z"/><path d="M4 4h16v5h-16Z"><animate fill="freeze" attributeName="d" begin="0.14s" dur="0.14s" to="M4 4h0v5h0Z"/></path></mask><mask id="SVG7b0ZLcJT"><path fill="#fff" fill-opacity="0.3" d="M10.13 18.15c-0.09 -0.86 -0.72 -6.17 -0.72 -6.17c0 0 1.94 0.33 3.1 -0.25c1.16 -0.57 2.48 -0.73 2.48 -0.73c0 0 -0.58 6.96 -0.63 7.46c-0.05 0.5 -0.9 0.84 -1.4 0.84l-1.72 0c-0.5 0 -1.02 -0.3 -1.11 -1.15Z"/><path d="M8 10h8v10h-8Z"><animate fill="freeze" attributeName="d" begin="0.35s" dur="0.14s" to="M8 10h8v0h-8Z"/></path></mask></defs><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="32" d="M7.5 10.5c0 0 0.83 6.93 1 8.5c0.17 1.57 1.5 2 2.5 2l2 0c1.5 0 2.88 -1.14 3 -2c0.13 -0.86 1 -12 1 -12"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.14s" values="32;0"/></path><path stroke-dasharray="14" stroke-dashoffset="14" d="M8 4c1.1 -0.57 2 -1 4 -1c2 0 4.5 0.5 4.5 3"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.28s" dur="0.07s" to="0"/></path></g><g fill="currentColor"><path d="M0 0h24v24H0z" mask="url(#SVGbM9xrexz)"/><path d="M0 0h24v24H0z" mask="url(#SVG7b0ZLcJT)"/></g>
+            </svg>
+        </div>
     </div>
 
     <aside class="sidebar">
-        <h1>Ealnya Admin 🎀</h1>
+        <h1>Ealnya Admin 
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><defs><mask id="SVG5AkzhcyZ"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4"><animate attributeName="d" dur="3.45s" repeatCount="indefinite" values="M8 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4;M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4"/></path><path d="M4 7h16v0h-16v12h16v-32h-16Z"><animate fill="freeze" attributeName="d" begin="1.15s" dur="0.69s" to="M4 2h16v5h-16v12h16v-24h-16Z"/></path></mask></defs><path fill="currentColor" fill-opacity="0" d="M17 14v4c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-4Z"><animate fill="freeze" attributeName="fill-opacity" begin="1.84s" dur="0.172s" to="0.3"/></path><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="48" d="M17 9v9c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-9Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.69s" values="48;0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M17 9h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.69s" dur="0.345s" to="0"/></path></g><path fill="currentColor" d="M0 0h24v24H0z" mask="url(#SVG5AkzhcyZ)"/></svg>
+                <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4"><animate attributeName="d" dur="3.45s" repeatCount="indefinite" values="M8 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 0c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4;M8 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M12 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4M16 -8c0 2 -2 2 -2 4s2 2 2 4s-2 2 -2 4s2 2 2 4"/></path><path d="M4 7h16v0h-16v12h16v-32h-16Z"><animate fill="freeze" attributeName="d" begin="1.15s" dur="0.69s" to="M4 2h16v5h-16v12h16v-24h-16Z"/></path></mask></defs><path fill="currentColor" fill-opacity="0" d="M17 14v4c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-4Z"><animate fill="freeze" attributeName="fill-opacity" begin="1.84s" dur="0.172s" to="0.3"/></path><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="48" d="M17 9v9c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-9Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.69s" values="48;0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M17 9h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.69s" dur="0.345s" to="0"/></path></g><path fill="currentColor" d="M0 0h24v24H0z" mask="url(#SVG5AkzhcyZ)"/>
+            </svg>
+        </h1>
         <nav class="nav-menu">
             <a href="{{ route('customer.pesanan.menu') }}"  class="nav-link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 24px; height: 24px;">
@@ -267,9 +275,9 @@
             const content = document.getElementById('app-content');
             setTimeout(() => {
                 loader.style.opacity = '0';
-                setTimeout(() => loader.style.display = 'none', 500);
+                setTimeout(() => loader.style.display = 'none', 100);
                 content.classList.add('loaded');
-            }, 600);
+            }, 700);
 
             const sidebarToggle = document.getElementById('sidebarToggle');
             const body = document.body;
