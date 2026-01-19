@@ -22,8 +22,8 @@ storage/app/public/menu/
 ## Preview
 ![Preview 2](public/img-ritmi-github/screenshot-2.png)
 ![Preview 3](public/img-ritmi-github/screenshot-3.png)
+![UI](public/img-ritmi-github/screenshot-4.png)
 
 ## Tampilan Lain
-![UI](public/img-ritmi-github/screenshot-4.png)
 ![UI](public/img-ritmi-github/screenshot-5.png)
 ![UI](public/img-ritmi-github/screenshot-6.png)
