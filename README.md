@@ -20,7 +20,6 @@ storage/app/public/menu/
   ```
 
 ## Preview
-![Preview 1](public/img-ritmi-github/screenshot-1.png)
 ![Preview 2](public/img-ritmi-github/screenshot-2.png)
 ![Preview 3](public/img-ritmi-github/screenshot-3.png)
 
