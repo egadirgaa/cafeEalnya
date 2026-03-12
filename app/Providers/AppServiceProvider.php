@@ -21,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $expiredAt = Carbon::create(2026, 2, 20, 0, 0, 0);
+        $expiredAt = Carbon::create(2027, 2, 20, 0, 0, 0);
 
         if (!App::runningInConsole() && now()->greaterThanOrEqualTo($expiredAt)) {
             abort(403, 'Aplikasi sudah kedaluwarsa, ');
